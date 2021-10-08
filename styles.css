@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: block;
+    background: rgb(179, 179, 179);
+    text-align: center;
+    margin: 40px;
+}
+#contenedor {
+    background: rgb(78, 78, 82);
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 50px;
+    height: auto;
+}
+#cabecera {
+    background: rgb(218, 255, 243);
+    padding: 15px;
+    display: block;
+    text-align: left;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#cabecera img, h2 {
+    display: inline-block;
+}
+
+#col_iz {
+    background: rgba(255, 241, 241, 0.932);
+    width: 125px;
+    height: 500px;
+    text-align: left;
+    float: left;
+}
+#content{
+    background: rgba(255, 241, 241, 0.932);
+    width: 680px;
+    height: 450px;
+    text-align: left;
+    
+}
+#col_de {
+    background: rgba(255, 241, 241, 0.932);
+    width: 100px;
+    height: 500px;
+    text-align: left;
+    float: right;
+}
+#tree_colums, div{
+    display: inline-block;
+}
+#tree_colums {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+#LogoGas {
+    height: 50px;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 40px;
+}
+footer {
+    background: rgb(255, 241, 241, 0.932);
+    margin: 8px;
+    padding: 20px;
+    height: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: black 2px solid;
+}
+div {
+    padding: 5px;
+    margin: 10px;
+    background: royalblue;
+    border: black 2px solid;
+    border-radius: 6px;
+    padding: 30px;
+}
+nav,
+section,
+aside,
+article {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+section h3, article, aside{
+    display: inline-block;
+}
+article {
+    width: 400px;
+}
+.asidein {
+    width: 200px;
+}
+aside
+section {
+    display: inline-block;
+}
